@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+.card {
+  width: 37%;
+  height: 25pc !important;
+  height: 100;
+  margin-left: 25pc;
+  margin-top: 2pc;
+  height: 19pc;
+  border-radius: 2pc;
+  border-top-color: red;
+  border-right-color: green;
+  border-left-color: gold;
+  border-bottom-color: blue;
+}
+.input {
+  width: 20pc;
+  margin-left: 28pc;
+}
+.btn {
+  background-color: rgb(214, 214, 8);
+  margin-left: 0.5pc;
+  width: 4pc;
+}
+.iconc {
+  width: 1pc;
+  height: 1pc;
+}
+.icons {
+  margin-left: 14pc;
+  font-size: 3pc;
+}
+.temp {
+  font-size: 3pc;
+  margin-left: 7pc;
+  color: orange;
+}
+.country {
+  margin-left: 11pc;
+  color: orangered;
+}
+.windi {
+  font-size: 2pc;
+  color: maroon;
+}
+.wind {
+  font-size: 2.4pc;
+  color: lightsalmon;
+}
+.humi {
+  font-size: 2pc;
+  margin-left: 5pc;
+  color: saddlebrown;
+}
+.hum {
+  /* style={{fontSize:'2.4pc',color:'darkkhaki'}} */
+  font-size: 2.4pc;
+  color: darkkhaki;
+}
+.Empttxt {
+  margin-left: 10.2pc;
+}
+.prei {
+  font-size: 2pc;
+  margin-left: 0pc;
+}
+.pre {
+  /* style={{fontSize:'2.4pc',color:'limegreen'}} */
+  font-size: 2.4pc;
+  color: limegreen;
+}
+.degi {
+  font-size: 3pc;
+  margin-left: 3pc;
+}
+.deg {
+  font-size: 2.4pc;
+  color: rgb(3, 194, 219);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 360px) {
+  .input {
+    margin-left: 2pc;
+    width: 15pc;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .card {
+    margin-left: 0.22pc;
+    width: 22pc;
+    height: 25pc !important;
   }
-  to {
-    transform: rotate(360deg);
+  .Empttxt {
+    margin-left: 6pc;
+  }
+  .temp {
+    margin-left: 0.5pc;
+  }
+  .country {
+    margin-left: 6pc;
+  }
+  .icons {
+    margin-left: 8pc;
+  }
+  .windi {
+    font-size: 1.5pc;
+    margin-left: 0.5pc;
+  }
+  .wind {
+    font-size: 1.5pc;
+  }
+  .humi {
+    font-size: 1.5pc;
+    margin-left: 1.5pc;
+    color: saddlebrown;
+  }
+  .hum {
+    /* style={{fontSize:'2.4pc',color:'darkkhaki'}} */
+    font-size: 1.5pc;
+
+    color: darkkhaki;
+  }
+  .prei {
+    font-size: 1.5pc;
+    margin-left: 0pc;
+  }
+  .pre {
+    /* style={{fontSize:'2.4pc',color:'limegreen'}} */
+    font-size: 1.4pc;
+    color: limegreen;
+  }
+  .degi {
+    font-size: 2.5pc;
+    margin-left: 0.2pc;
+  }
+  .deg {
+    font-size: 1.4pc;
+    color: rgb(3, 194, 219);
   }
 }
